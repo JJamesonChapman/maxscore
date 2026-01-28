@@ -38,7 +38,7 @@ while (( i < 5 )); do
     fi
   fi
 
-  (( i++ ))
+  (( ++i ))
 done
 
 echo "The highest score is $max"
